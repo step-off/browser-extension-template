@@ -1,3 +1,4 @@
-window.onload = function () {
-	document.querySelector('body').style.background = 'red'
-};
+document.addEventListener('DOMContentLoaded', function() {
+	document.querySelector('#age-verification-wrapper').style.display = 'none';
+	document.querySelector('#age-verification-container').style.display = 'none';
+}, false);
